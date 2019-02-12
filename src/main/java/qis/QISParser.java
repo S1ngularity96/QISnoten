@@ -15,9 +15,6 @@ public class QISParser {
             "asdf=(USERNAME)&" +
             "fdsa=(PASSWORD)&submit=Login+Prüfungsanmeldung+/+Adressänderung+";
 
-    String LOGIN_DOC_URL = "https://www.qis.fh-aachen.de/qisserver/rds?state=user&type=0";
-
-
     public ArrayList<QISModul> getDocumentByLogin(String user, String password){
         try {
             Connection.Response loginResponse = Jsoup.connect(LOGIN_DOCUMENT_URL.replace("(USERNAME)",user).replace("(PASSWORD)",password)).
