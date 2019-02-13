@@ -16,8 +16,8 @@ Use this software at your own risk!
 Type in Commandline
 
 ```cmd
-REM java -jar QISnoten.jar 1 Username Password - Shows the table 
-REM java -jar QISnoten.jar 2 Username Password - grade point average
+REM java -jar QISnoten.jar 1 - Shows the table 
+REM java -jar QISnoten.jar 2 - grade point average
 
-java -jar QISnoten.jar <Nr> <Username> <Password>
+java -jar QISnoten.jar <Nr> 
 ```

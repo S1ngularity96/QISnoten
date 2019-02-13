@@ -43,7 +43,7 @@ public class QISUi {
      */
     public void zeigeHilfeAn(){
         System.out.println("{MANUAL QISnoten}");
-        System.out.println("[SYNOPSIS]\n\t<Nr> <username> <password>");
+        System.out.println("[SYNOPSIS]\n\t<Nr>");
         System.out.println("[Optionen]\n\tNr.1. alle Noten anzeigen\n" +
                 "\tNr.2. Durchschnitt anzeigen\n");
     }
